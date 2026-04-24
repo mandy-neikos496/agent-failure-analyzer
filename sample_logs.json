@@ -1,0 +1,17 @@
+[
+    {
+        "run_id": 1,
+        "steps": [
+            {"action": "search", "status": "success"},
+            {"action": "summarize", "status": "error", "error": "API timeout"}
+        ]
+    },
+    {
+        "run_id": 2,
+        "steps": [
+            {"action": "search", "status": "success"},
+            {"action": "search", "status": "success"},
+            {"action": "search", "status": "success"}
+        ]
+    }
+]
